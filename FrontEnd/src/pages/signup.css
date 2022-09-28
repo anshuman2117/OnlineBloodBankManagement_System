@@ -1,0 +1,23 @@
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+
+    .signup{
+        background-color: rgb(241, 255, 255);
+        padding: 5;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .signupBackground{
+        background-image:url(../../public/images/bloodbank_1.png);
+        background-size: cover;
+        
+    }
+
+    
