@@ -37,11 +37,12 @@ public class EmailSendingServiceImpl implements IEmailSendingService {
 		
 		Session session=Session.getInstance(properties, new javax.mail.Authenticator() {
 			protected PasswordAuthentication getPasswordAuthentication() {
-				return new PasswordAuthentication(from, "yekdewbrbpkpshwv");
+				return new PasswordAuthentication(from, "your gmail password here");
 			}
 		});
 		
 		// used to debug smtp issues
+
 //		session.setDebug(true);
 		
 		try {
@@ -62,6 +63,7 @@ public class EmailSendingServiceImpl implements IEmailSendingService {
 			message.setSubject(subject);
 			
 			// set the message body
+// 			yekdewbrbpkpshwv
 //			message.setText(messageBody);
 			message.setContent(messageBody, "text/html");
 			
